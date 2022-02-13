@@ -10,17 +10,33 @@ export default [
   {
     path: '/',
     name: 'home',
-    component: () => import('../views/Home/Home'),
+    component: () => import('../views/list-contacts/ListContacts'),
     meta: {
-      title: 'Feed de pokemons',   
+      title: 'Contacts Index',   
     },
   },
   {
     path: '/details',
     name: 'details',
-    component: () => import('../views/Details/Details'),
+    component: () => import('../views/contact-details/ContactDetails'),
     meta: {
       title: 'Detalhes',     
+    },
+  },
+  {
+    path: '/delete',
+    name: 'delete',
+    component: () => import('../views/delete-contact/DeleteContact'),
+    meta: {
+      title: 'Delete Contact',     
+    },
+  },
+  {
+    path: '/add',
+    name: 'adicionar contato',
+    component: () => import('../views/add-contact/AddContact'),
+    meta: {
+      title: 'Adicionar Contato',     
     },
   },
 ]
