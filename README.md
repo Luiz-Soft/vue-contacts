@@ -1,3 +1,7 @@
+
+
+# About
+A contacts crud that uses Vue.js in the front-end. Made for a company called AlfaSoft 
 # vue-contacts
 
 ## Project setup
